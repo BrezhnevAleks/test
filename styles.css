@@ -153,7 +153,7 @@ button {
 .about-me {
   text-align: center;
 }
-.about-me__title {
+h2 {
   padding-top: 120px;
   font-weight: 500;
   font-size: 32px;
@@ -170,4 +170,51 @@ button {
 
 .projects {
   background-color: #34547a;
+  padding: 100px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects__item {
+  padding: 100px 0;
+  display: flex;
+  color: white;
+}
+
+.projects__item__text {
+  padding-top: 10px;
+}
+
+.projects__item__text p {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+}
+.projects__item__text p span {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.my-work {
+  text-align: center;
+  padding: 100px auto;
+}
+.my-work p {
+  max-width: 540px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 26px;
+}
+.my-work__video {
+  background: url(images/Rectangle\ 5.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 1110px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: auto;
+}
+.my-work__video__play {
+  margin: auto;
 }
