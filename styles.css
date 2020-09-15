@@ -1,2 +1,173 @@
-div {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*-----------------------------------------------------------------------------*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #727272;
+}
+header {
+  display: flex;
+  background-color: #eeeff1;
+  padding-top: 50px;
+  padding: 0 auto;
+  justify-content: space-around;
+}
+
+nav {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+a {
+  margin-left: 42px;
+
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+}
+a:first-child {
+  margin-left: 0;
+  color: #34547a;
+  font-weight: 500;
+}
+.design {
+  display: flex;
+  justify-content: center;
+  background-color: #eeeff1;
+  padding: 140px 0;
+}
+h1 {
+  color: black;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+}
+
+.design__paragraph {
+  max-width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 60px auto;
+  color: #727272;
+}
+button {
+  width: 225px;
+  height: 65px;
+  color: white;
+  background: #34547a;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.design__screen {
+  width: 357px;
+  height: 233.7px;
+  margin-right: 130px;
+  align-self: center;
+}
+
+.about-me {
+  text-align: center;
+}
+.about-me__title {
+  padding-top: 120px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: black;
+}
+.about-me__paragraph {
+  margin: 50px auto 100px auto;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  max-width: 540px;
+}
+
+.projects {
+  background-color: #34547a;
 }
