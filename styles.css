@@ -198,22 +198,24 @@ h2 {
 .my-work {
   text-align: center;
   padding: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
 }
 .my-work p {
   max-width: 540px;
-  margin: 0 auto;
+  margin: auto;
   font-size: 16px;
   line-height: 26px;
 }
 .my-work__video {
   background: url(images/Rectangle\ 5.png);
-  background-repeat: no-repeat;
+
   background-size: auto;
-  width: 1110px;
-  height: 600px;
-  display: block;
-  margin: 0 auto;
-  padding: auto;
+
+  display: flex;
+  align-content: center;
+  margin: auto;
 }
 .my-work__video__play {
   margin: auto;
