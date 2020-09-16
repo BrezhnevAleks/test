@@ -262,7 +262,7 @@ progress::-webkit-progress-value {
 }
 .gallery__items {
   position: relative;
-  max-width: 480px;
+
   display: flex;
   justify-content: center;
 }
