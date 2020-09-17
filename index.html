@@ -7,32 +7,32 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <img class="header__logo" src="images/WD.png" alt="" srcset="" />
-      <nav>
-        <a href="#">Главная</a>
-        <a href="#">Об авторе</a>
-        <a href="#">Работы</a>
-        <a href="#">Процесс</a>
-        <a href="#">Контакты</a>
+    <header class="main-menu">
+      <img class="main-menu__logo" src="images/WD.png" alt="" srcset="" />
+      <nav class="main-menu__menu">
+        <a class="main-menu__menu-item" href="#">Главная</a>
+        <a class="main-menu__menu-item" href="#">Об авторе</a>
+        <a class="main-menu__menu-item" href="#">Работы</a>
+        <a class="main-menu__menu-item" href="#">Процесс</a>
+        <a class="main-menu__menu-item" href="#">Контакты</a>
       </nav>
     </header>
 
     <section class="design">
-      <img class="design__screen" src="images/Frame.png" alt="" />
+      <img class="design__screen" src="images/Frame.svg" alt="" />
       <div class="design__text">
-        <h1>Дизайн и верстка</h1>
+        <h1 class="design__title">Дизайн и верстка</h1>
         <p class="design__paragraph">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
           латинице с начала XVI века.
         </p>
-        <button>Написать мне</button>
+        <button class="button">Написать мне</button>
       </div>
     </section>
 
     <section class="about-me">
-      <h2>Обо мне</h2>
+      <h2 class="about-me__title">Обо мне</h2>
       <p class="about-me__paragraph">
         Lorem Ipsum - это текст-"рыба", часто используемый в печати и
         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
@@ -42,50 +42,50 @@
 
     <section class="projects">
       <div class="projects__item">
-        <img class="project__item-icon" src="images/Group.png" alt="" />
+        <img class="project__item-icon" src="images/Project.svg" alt="" />
         <div class="projects__item-text">
-          <h3>40+</h3>
-          <span>проектов</span>
+          <h3 class="projects__item-title">40+</h3>
+          <span class="project__item-description">проектов</span>
         </div>
       </div>
 
       <div class="projects__item">
-        <img class="project__item-icon" src="images/Group.png" alt="" />
+        <img class="project__item-icon" src="images/Project.svg" alt="" />
         <div class="projects__item-text">
-          <h3>40+</h3>
-          <span>проектов</span>
+          <h3 class="projects__item-title">40+</h3>
+          <span class="project__item-description">проектов</span>
         </div>
       </div>
 
       <div class="projects__item">
-        <img class="project__item-icon" src="images/Group.png" alt="" />
+        <img class="project__item-icon" src="images/Project.svg" alt="" />
         <div class="projects__item-text">
-          <h3>40+</h3>
-          <span>проектов</span>
+          <h3 class="projects__item-title">40+</h3>
+          <span class="project__item-description">проектов</span>
         </div>
       </div>
 
       <div class="projects__item">
-        <img class="project__item-icon" src="images/Group.png" alt="" />
+        <img class="project__item-icon" src="images/Project.svg" alt="" />
         <div class="projects__item-text">
-          <h3>40+</h3>
-          <span>проектов</span>
+          <h3 class="projects__item-title">40+</h3>
+          <span class="project__item-description">проектов</span>
         </div>
       </div>
 
       <div class="projects__item">
-        <img class="project__item-icon" src="images/Group.png" alt="" />
+        <img class="project__item-icon" src="images/Project.svg" alt="" />
         <div class="projects__item-text">
-          <h3>40+</h3>
-          <span>проектов</span>
+          <h3 class="projects__item-title">40+</h3>
+          <span class="project__item-description">проектов</span>
         </div>
       </div>
 
       <div class="projects__item">
-        <img class="project__item-icon" src="images/Group.png" alt="" />
+        <img class="project__item-icon" src="images/Project.svg" alt="" />
         <div class="projects__item-text">
-          <h3>40+</h3>
-          <span>проектов</span>
+          <h3 class="projects__item-title">40+</h3>
+          <span class="project__item-description">проектов</span>
         </div>
       </div>
     </section>
@@ -93,25 +93,34 @@
     <section class="skills">
       <div class="skills-level">
         <h2 class="skills-level__title">Мои навыки</h2>
-        <p class="skills_skillname">Adobe Photoshop</p>
-        <progress value="80" max="100">Выше среднего</progress>
-        <p class="skills_skillname">Adobe Photoshop</p>
-        <progress value="80" max="100">Выше среднего</progress>
-        <p class="skills_skillname">Adobe Photoshop</p>
-        <progress value="80" max="100">Выше среднего</progress>
+        <h3 class="skills__skill-name">Adobe Photoshop</h3>
+        <progress class="skills__progress" value="80" max="100">
+          Выше среднего
+        </progress>
+        <h3 class="skills__skill-name">Adobe Photoshop</h3>
+        <progress class="skills__progress" value="80" max="100">
+          Выше среднего
+        </progress>
+        <h3 class="skills__skill-name">Adobe Photoshop</h3>
+        <progress class="skills__progress" value="80" max="100">
+          Выше среднего
+        </progress>
       </div>
       <img class="skills__avatar" src="images/Rectangle 3.png" alt="" />
     </section>
 
     <section class="my-work">
-      <h2>Как я работаю</h2>
+      <h2 class="my-work__title">Как я работаю</h2>
       <p class="my-work__paragraph">
         Lorem Ipsum - это текст-"рыба", часто используемый в печати и
         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
         латинице с начала XVI века.
       </p>
       <div class="my-work__video">
-        <img class="my-work__video-play" src="images/Vector.png" alt="" />
+        <img class="my-work__video-play" src="images/Rectangle 5.png" alt="" />
+        <div class="my-work__video-button">
+          <img class="my-work__video-icon" src="images/Play.svg" alt="" />
+        </div>
       </div>
     </section>
 
@@ -159,21 +168,36 @@
         латинице с начала XVI века.
       </p>
       <form>
-        <input type="text" name="username" placeholder="Ваше имя" />
-        <input type="email" name="e-mail" placeholder="name@domain.com" />
-        <textarea name="Сообщение" placeholder="Сообщение"></textarea>
-        <button>Отправить</button>
+        <input
+          class="contact__input"
+          type="text"
+          name="username"
+          placeholder="Ваше имя"
+        />
+        <input
+          class="contact__input"
+          type="email"
+          name="e-mail"
+          placeholder="name@domain.com"
+        />
+        <textarea
+          class="contact__textarea"
+          name="Message"
+          placeholder="Сообщение"
+        ></textarea>
+        <button class="button">Отправить</button>
       </form>
     </section>
-    <footer>
+
+    <footer class="footer">
       <div class="footer__text">
         <h3 class="footer__name">Иванов Иван</h3>
-        <p>(с) 2018. Все права защищены.</p>
+        <span>(с) 2018. Все права защищены.</span>
       </div>
       <div class="footer__social">
-        <img class="footer__social-item" src="images/VK.png" alt="" />
-        <img class="footer__social-item" src="images/VK.png" alt="" />
-        <img class="footer__social-item" src="images/VK.png" alt="" />
+        <img class="footer__social-item" src="images/VK.svg" alt="" />
+        <img class="footer__social-item" src="images/VK.svg" alt="" />
+        <img class="footer__social-item" src="images/VK.svg" alt="" />
       </div>
     </footer>
   </body>
