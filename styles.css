@@ -97,13 +97,12 @@ h2 {
 }
 
 .button {
-  min-height: 65px;
-  padding: 0 3em;
-  color: white;
+  padding: 1em 3em;
   text-transform: uppercase;
-  font-size: 16px;
+
   line-height: 26px;
   text-align: center;
+  color: white;
   letter-spacing: 0.1em;
   background: #34547a;
 }
@@ -162,11 +161,6 @@ h2 {
   color: #727272;
 }
 
-.design__write-me-button {
-  width: 225px;
-  height: 65px;
-}
-
 .design__screen {
   width: 357px;
   height: 233.7px;
@@ -174,6 +168,9 @@ h2 {
   align-self: center;
 }
 
+.button_big-font {
+  font-size: 16px;
+}
 /*-----------------------------------------------------------------------------*/
 
 .about-me {
@@ -272,6 +269,7 @@ h2 {
 /*-----------------------------------------------------------------------------*/
 
 .my-work {
+  padding: 0 5% 100px 5%;
   text-align: center;
 }
 
@@ -292,7 +290,6 @@ h2 {
   display: block;
   max-width: 1110px;
   max-height: 600px;
-
   margin: 0 auto 100px auto;
 }
 
@@ -310,6 +307,7 @@ h2 {
   justify-content: center;
   align-content: center;
 }
+
 .my-work__video-icon {
   width: 15%;
 }
@@ -364,11 +362,6 @@ h2 {
   margin: 50px auto 65px auto;
 }
 
-.contact__send-button {
-  width: 190px;
-  height: 55px;
-}
-
 .contact__input {
   width: 255px;
   height: 50px;
@@ -388,6 +381,10 @@ h2 {
   padding-top: 17px;
   margin: 20px auto 50px auto;
   color: #5f5d5d;
+}
+
+.button_small-font {
+  font-size: 14px;
 }
 
 /*-----------------------------------------------------------------------------*/
@@ -526,11 +523,6 @@ h2 {
     margin-bottom: 34px;
   }
 
-  .my-work__video {
-    margin: 0 18px 100px 18px;
-  }
-  .my-work__video-icon {
-  }
   /*-----------------------------------------------------------------------------*/
 
   .gallery {
@@ -543,6 +535,7 @@ h2 {
     margin-top: 34px;
     margin-bottom: 48px;
   }
+
   .contact__input {
     width: 80%;
 
@@ -563,13 +556,8 @@ h2 {
   /*-----------------------------------------------------------------------------*/
 
   .footer {
-    color: white;
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 50px 0 50px 0;
     text-align: center;
-    background-color: #34547a;
   }
 
   .footer__text {
